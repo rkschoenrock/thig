@@ -18,8 +18,8 @@ html, body {
 }
 
 @font-face {
-    font-family: Jenna Sue;
-    src: url(fonts/JennaSue.ttf);
+    font-family: Avenir Next;
+    src: url(fonts/AvenirNextLTPro-Cn.otf);
 }
 
 h1, h2, h3, h4, h5, h6 {
