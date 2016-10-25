@@ -61,8 +61,11 @@ add_theme_support('menus');
 function register_my_menus() {
   register_nav_menus(
     array(
-      'global-menu' => __( 'Global Menu' ),
-      'top-menu' => __( 'Top Menu' )
+    	'global-menu' => __( 'Global Menu' ),
+    	'top-menu' => __( 'Top Menu' )
+    	'footer-menu1' => __( 'Footer Menu 1' ),
+    	'footer-menu2' => __( 'Footer Menu 2' ),
+    	'footer-menu3' => __( 'Footer Menu 3' )
     )
   );
 }
