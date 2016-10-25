@@ -18,7 +18,7 @@ html, body {
 }
 
 @font-face {
-    font-family: Avenir Next;
+    font-family: 'Avenir Next';
     src: url(fonts/AvenirNextLTPro-Cn.otf);
 }
 
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #52452e;
 }
 
-h1 {
+/*h1 {
     font-size: 6.0rem;
     text-align: center;
     margin-top: 20px;
@@ -78,37 +78,29 @@ a {
 
 /*--- Menu --- */
 
-.centermenu {
-    width: 700px;
-    margin: auto;
+.globalmenu {
+    background-color: #C4DFE0;
+    padding-top: 20px;
 }
 
-.blank-menu-header {
-    text-align: center;
-    margin-top: 40px;
-    float: left;
+.globalmenu ul {
+    float: right;
 }
-.blank-menu-header ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    list-style-image: none;
-}
-.blank-menu-header li {
+
+.globalmenu ul li {
     display: inline;
 }
-.blank-menu-header ul li a {
-    text-decoration:none;
-    margin: 4px;
-    padding: 5px 20px 5px 20px;
-    font-weight: 300;
-    font-size: 1.3em;
+
+.globalmenu ul li a {
+    padding: 10px;
+    color: #222222;
+    font-family: 'Avenir Next';
+    font-size: 1.6rem;
     text-transform: uppercase;
-    color: #52452e;
 }
-.blank-menu-header ul li a:hover {
-    color: #cccccc;
-}
+
+.globalmenu ul li+li { border-left: 1px solid #222222; }
+
 
 .header-search {
     display: none;
@@ -116,8 +108,8 @@ a {
 
 @media screen and (min-width: 600px) {
 	.header-search {
-        display: block;
-        padding: 40px 20px 5px 20px;
+        display: inline-block;
+        float: right;
     }
 }
 
@@ -293,7 +285,7 @@ footer p {
     color: #DE7467;
     background-color: #52452e;
 }
-/* SINGLE POSTS */
+/* SINGLE POSTS
 
 .single {
     margin-top: 40px;
@@ -323,45 +315,7 @@ footer p {
 .navigation-previous a:hover, .navigation-next a:hover {
     color: #DE7467;
 }
-
-/* CONTACT FORM */
-.contactform {
-  width: 436px;
-  margin: auto;
-}
-.contactform input, .contactform textarea {
-  display: block;
-  width: 416px;
-  margin: 10px;
-  color: black;
-}
-.contactform input {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.contactform label {
-  text-transform: uppercase;
-}
-.contactform .submit-button {
-    width: 100px;
-    background-color: #ccbca3;
-    margin: 20px;
-    padding: 20px;
-    border: none;
-    float: right;
-    color: white;
-    text-transform: uppercase;
-}
-
-.contactform .submit-button:hover {
-    background-color: #52452e;
-}
-
-.contactform a {
-  color: white;
-  text-transform: uppercase;
-}
-
+*/
 
 /* SEARCH FORM */
 .wie-search-form .screen-reader-text {

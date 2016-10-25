@@ -19,27 +19,21 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div class="container"> <!-- Begin Container Div -->
+    <div class="container-fluid"> <!-- Begin Container Div -->
 
         <header class="row">
-            <div class="twelve columns">
-                <h1><a href="<?php $url = home_url('/'); echo $url; ?>"><?php bloginfo('name'); ?></a></h1>
+            <div class="col-md-12 globalmenu"> <!-- Global Nav -->
+                <!--h1><a href="<!?php $url = home_url('/'); echo $url; ?>"><!?php bloginfo('name'); ?></a></h1-->
+				<div class="header-search"><?php get_search_form(); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'global-menu' ) ); ?>
+				</div>
             </div>
-        </header>
-
-        <nav class="row">
-            <div class="twelve columns">
-                    <div class="centermenu">
-                    <?php
-                        wp_nav_menu(array(
-                            'sort_column' => 'menu_order',
-                            'container_class' => 'blank-menu-header'
-                        ));
-                    ?>
-                    <div class="header-search"><?php get_search_form(); ?></div>
-                </div>
-            </div>
-        </nav>
+			<div class="col-md-12 topmenu">
+				<img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/TH-Horiz-4c-Stacked.png" width="260px" alt="Tower Hill Insurance Group" />
+				<?php wp_nav_menu( array( 'theme_location' => 'top-menu' ) ); ?>
+			</div>
+		</header>

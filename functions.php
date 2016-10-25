@@ -56,6 +56,18 @@ add_action('widgets_init', 'blank_widgets_init');
 
 add_theme_support('menus');
 
+/*------------ Enable Multiple Menus -----------*/
+
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'global-menu' => __( 'Global Menu' ),
+      'top-menu' => __( 'Top Menu' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
+
 
 /*--- Enable Post Thumbnails ---*/
 
