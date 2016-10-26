@@ -62,10 +62,10 @@ function register_my_menus() {
   register_nav_menus(
     array(
     	'global-menu' => __( 'Global Menu' ),
-    	'top-menu' => __( 'Top Menu' )
-    	'footer-menu1' => __( 'Footer Menu 1' ),
-    	'footer-menu2' => __( 'Footer Menu 2' ),
-    	'footer-menu3' => __( 'Footer Menu 3' )
+    	'top-menu' => __( 'Top Menu' ),
+    	'footer1-menu' => __( 'Footer Menu 1' ),
+    	'footer2-menu' => __( 'Footer Menu 2' ),
+    	'footer3-menu' => __( 'Footer Menu 3' )
     )
   );
 }
