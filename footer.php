@@ -28,7 +28,7 @@
 			<a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/youtube.jpg" /></a>
 	    </div>
 	</div>
-	<div class="row bottomfooter">
+	<div class="bottomfooter">
 		<p class="col-md-12">&copy;2001-2016, Tower Hill Insurance Group, LLC. All rights reserved. |
 			<a href="#">Privacy Policy</a> |
 			<a href-"#">Accessibility</a> |

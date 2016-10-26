@@ -12,7 +12,6 @@ Text Domain: slice-company-thig-template
 @import url("stylesheets/skeleton.css");
 
 html, body {
-    color: #52452e;
     font-size: 14px;
     line-height: 1.5em;
 }
@@ -22,15 +21,13 @@ html, body {
     src: url(fonts/AvenirNextLTPro-Cn.otf);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #52452e;
-}
 
 /*--- Global Menu --- */
 
 .globalmenu {
     background-color: #C4DFE0;
     padding-top: 20px;
+    display: none;
 }
 
 .globalmenu ul {
@@ -62,16 +59,13 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 992px) {
+    .globalmenu {
+        display: inline-block;
+    }
 	.header-search {
         display: inline-block;
         float: right;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .globalmenu {
-        display: none;
     }
 }
 
@@ -84,6 +78,13 @@ h1, h2, h3, h4, h5, h6 {
 .topmenu ul {
     float: right;
     margin-top: 30px;
+    display: none;
+}
+
+@media screen and (min-width: 650px) {
+    .topmenu ul {
+        display: block;
+    }
 }
 
 .topmenu ul li {
@@ -103,6 +104,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .topmenu img {
     padding-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (min-width: 650px) {
+    .topmenu img {
+        display: inline;
+    }
 }
 
 /* ---- Begin Wrapper 80% ---*/
@@ -298,6 +307,10 @@ footer {
 @media screen and (min-width: 992px) {
     .bottomfooter {
         text-align: left;
+        padding: 20px 45px 35px 10px;
+    }
+    .bottomfooter p {
+        padding-left: 15px;
     }
 }
 
