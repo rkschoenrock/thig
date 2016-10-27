@@ -3,68 +3,64 @@
 
 <!-- Begin Section Container -->
 
-    <!-- Begin Banner (index.php): Latest Post -->
-    <section class="row">
-        <div class="twelve columns banner-latest-post">
-            <h3>Latest Post</h3>
-            <?php
-                $postslist = get_posts('numberposts=1');
-                foreach ($postslist as $post) :
-                setup_postdata($post);
-            ?>
-        <div class="post">
-            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-            <div class="banner-thumbnail">
-                <a href="<?php the_permalink(); ?>">
-                    <?php
-                    if ( function_exists( 'add_theme_support' ) ) {
-                    	add_theme_support( 'post-thumbnails' ); // enable feature
-                    	set_post_thumbnail_size( 96, 96, true ); // default size
-                    	add_image_size( 'custom-banner-thumbnail', 300, 300, true ); // custom size
-                    }
-                    ?>
-                    <?php
-                        if ( has_post_thumbnail() ) {
-                            the_post_thumbnail('custom-banner-thumbnail');
-                        }
-                    ?>
-                </a>
-            </div>
-        </div>
-            <?php endforeach ?>
-        </div>
-    </section>
-    <!-- End Header: Latest Post-->
 
-    <!-- Begin Section Wrapper -->
+    <section class="homepage">
 
-    <section class="row wrapper">
-        <div class="twelve columns">
-            <!-- Begin Loop -->
-            <div class="boxed-latest-posts">
-                <?php
-                    if ( have_posts() ) {
-                    while ( have_posts() ) {
-                        the_post();
-                ?>
-                <div class="boxed-single-post">
-                    <div class="boxed-thumbnail">
-                        <a href="<?php the_permalink(); ?>">
-                            <?php
-                                if ( has_post_thumbnail() ) {
-                                    the_post_thumbnail('thumbnail');
-                                }
-                            ?>
-                        </a>
-                    </div>
-                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                </div>
-                        <?php
-                        } //end while
-                    } //end if
-                ?>
+        <!-- ROW 1: Hero Image Slider -->
+        <article class="col-md-12 slider">
+            <div class="wrapper">
+                <?php dynamic_sidebar('slider-widget'); ?>
             </div>
-            <!-- End Loop -->
+        </article>
+
+        <!-- ROW 2: Get a Quote -->
+        <article class="wrapper">
+            <p>Get a Quote form will go in here</p>
+        </article>
+
+        <!-- ROW 3: Our Products -->
+        <article class="col-md-12 products">
+            <div class="wrapper">
+                <?php dynamic_sidebar('products-widget'); ?>
+            </div>
+        </article>
+
+        <!-- ROW 4: Intro and Find an Agent -->
+        <div class="wrapper">
+            <article class="col-md-8">
+                <?php dynamic_sidebar('intro-widget'); ?>
+            </article>
+            <article class="col-md-4">
+                <?php dynamic_sidebar('agent-widget'); ?>
+            </article>
+        </div>
+
+        <!-- ROW 5: Social Media Bar -->
+        <article class="social-media-bar">
+            <div class="social-image-wrapper">
+                <a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/facebook.jpg" /></a>
+                <a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/twitter.jpg" /></a>
+                <a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/linkedin.jpg" /></a>
+                <a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/google.jpg" /></a>
+                <a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/youtube.jpg" /></a>
+            </div>
+        </article>
+
+        <!-- ROW 6: How to File a Claim -->
+        <article class="wrapper claim">
+            <?php dynamic_sidebar('claim-widget'); ?>
+        </article>
+
+        <!-- ROW 7: Latest News and Subscribe -->
+        <div class="aqua col-md-12">
+            <div class="wrapper">
+                <article class="col-md-8">
+                    <?php dynamic_sidebar('news-widget'); ?>
+                </article>
+                <article class="col-md-4">
+                    <?php dynamic_sidebar('subscribe-widget'); ?>
+                </article>
+            </div>
         </div>
     </section>
 <!-- End Section Wrapper + Container -->

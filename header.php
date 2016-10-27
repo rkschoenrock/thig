@@ -5,9 +5,6 @@
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 
-    <link rel="stylesheet" type="text/css" href="
-        <?php bloginfo('stylesheet_url'); ?>
-    " />
 
 	<!-- Playfair Display Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
@@ -20,22 +17,27 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+
+	    <link rel="stylesheet" type="text/css" href="
+	        <?php bloginfo('stylesheet_url'); ?>
+	    " />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div class="container-fluid"> <!-- Begin Container Div -->
+    <div class="container-fluid"> <!-- Begin Fluid Container Div -->
 
         <header class="row">
             <div class="col-md-12 globalmenu"> <!-- Global Nav -->
                 <!--h1><a href="<!?php $url = home_url('/'); echo $url; ?>"><!?php bloginfo('name'); ?></a></h1-->
-				<div class="header-search"><?php get_search_form(); ?>
-					<?php wp_nav_menu( array( 'theme_location' => 'global-menu' ) ); ?>
-				</div>
+			          <div class="header-search"><?php get_search_form(); ?>
+					      <?php wp_nav_menu( array( 'theme_location' => 'global-menu' ) ); ?>
+				    </div>
             </div>
-			<div class="col-md-12 topmenu">
-				<?php wp_nav_menu( array( 'theme_location' => 'top-menu' ) ); ?>
-				<a href="index.php">
-					<img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/TH-Horiz-4c-Stacked.png" width="260px" alt="Tower Hill Insurance Group" />
-				</a>
-			</div>
-		</header>
+    			  <div class="col-md-12 topmenu">
+      			    <?php wp_nav_menu( array( 'theme_location' => 'top-menu' ) ); ?>
+                <a href="index.php">
+                    <img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/TH-Horiz-4c-Stacked.png" width="260px" alt="Tower Hill Insurance Group" />
+                </a>
+    			  </div>
+		    </header>

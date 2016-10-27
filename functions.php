@@ -2,46 +2,79 @@
 /*-------------- Enable Widgets--------------- */
 
 function blank_widgets_init() {
-	/* Sidebar Widget */
+	/* Image Slider */
     register_sidebar( array(
-        'name' 			=> ('First Widget'),
-        'id' 			=> 'first-widget',
-        'description'   => 'Widget for our sidebar on pages',
-        'before_widget' => '<div class="widget-sidebar">',
+        'name' 			=> ('Slider Widget'),
+        'id' 			=> 'slider-widget',
+        'description'   => 'Slider plugin goes in here',
+        'before_widget' => '<div class="widget-slider">',
         'after_widget'  => '</div>',
         'before_title'  => '<h2>',
         'after_title'   => '</h2>'
         ));
 
-	/* First Footer Widget */
+	/* Product Slider */
+		register_sidebar( array(
+				'name' 			=> ('Products Widget'),
+				'id' 			=> 'products-widget',
+				'description'   => 'Products slider goes in here',
+				'before_widget' => '<div class="widget-products">',
+				'after_widget'  => '</div>',
+				'before_title'  => '<h2>',
+				'after_title'   => '</h2>'
+				));
+
+	/* Intro Widget */
+    register_sidebar( array(
+        'name' 			=> ('Intro Widget'),
+        'id' 			=> 'intro-widget',
+        'description'   => 'Introduction of your page',
+        'before_widget' => '<div class="widget-intro">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>'
+        ));
+
+	/* File Claim Widget */
+    register_sidebar( array(
+        'name' 			=> ('Claim Widget'),
+        'id' 			=> 'claim-widget',
+        'description'   => 'How to file a claim',
+        'before_widget' => '<div class="widget-claim">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>'
+        ));
+
+	/* Agent Widget */
 	register_sidebar( array(
-		'name'	 		=> ('First Footer Widget'),
-		'id' 	 		=> 'footer-one',
-		'description'	=> 'Left widget in the footer',
-		'before_widget' => '<div class="widget-footer widget-left">',
+		'name'	 		=> ('Agent Widget'),
+		'id' 	 		=> 'agent-widget',
+		'description'	=> 'Agent widget',
+		'before_widget' => '<div class="widget-agent">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
 		));
 
-	/* Second Footer Widget */
+	/* Latest News Widget */
 	register_sidebar( array(
-		'name'	 		=> ('Second Footer Widget'),
-		'id' 	 		=> 'footer-two',
-		'description'	=> 'Middle widget in the footer',
-		'before_widget' => '<div class="widget-footer widget-middle">',
+		'name'	 		=> ('News Widget'),
+		'id' 	 		=> 'news-widget',
+		'description'	=> 'Latest News widget',
+		'before_widget' => '<div class="widget-news">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
 		));
 
 
-	/* Third Footer Widget */
+	/* Subscribe Widget */
 	register_sidebar( array(
-		'name'	 		=> ('Third Footer Widget'),
-		'id' 	 		=> 'footer-three',
-		'description'	=> 'Right widget in the footer',
-		'before_widget' => '<div class="widget-footer widget-right">',
+		'name'	 		=> ('Subscribe Widget'),
+		'id' 	 		=> 'subscribe-widget',
+		'description'	=> 'Suscribe widget',
+		'before_widget' => '<div class="widget-subscribe">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'

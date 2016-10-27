@@ -8,12 +8,12 @@ License: Open
 Text Domain: slice-company-thig-template
 */
 
-@import url("stylesheets/normalize.css");
-@import url("stylesheets/skeleton.css");
+
 
 html, body {
-    font-size: 14px;
     line-height: 1.5em;
+    background-color: #fff;
+    font-family: 'Avenir Next';
 }
 
 @font-face {
@@ -21,6 +21,25 @@ html, body {
     src: url(fonts/AvenirNextLTPro-Cn.otf);
 }
 
+h1 {
+  font-family: 'Playfair Display';
+  color: #222222;
+}
+
+h2 {
+  font-family: 'Playfair Display';
+  color: #006998;
+}
+
+h3 {
+  font-family: 'Avenir Next';
+  color: #006998;
+}
+
+p {
+  font-family: 'Avenir Next';
+  color: #222222;
+}
 
 /*--- Global Menu --- */
 
@@ -114,13 +133,7 @@ html, body {
     }
 }
 
-/* ---- Begin Wrapper 80% ---*/
-.wrapper {
-    width: 80%;
-    margin: 0 auto;
-}
-
-/*-- (index.php) Latest Post --*/
+/*-- (index.php) Latest Post
 .banner-latest-post {
     background-color: #b9d2cc;
     padding: 40px;
@@ -142,10 +155,10 @@ html, body {
     height: 300px;
     margin: auto;
     display: block;
-}
+}--*/
 
 
-/*--- (index.php) Boxed Latest Posts ---*/
+/*--- (index.php) Boxed Latest Posts
 
 .boxed-latest-posts {
     margin: 20px;
@@ -194,12 +207,13 @@ html, body {
     .boxed-latest-posts h3 {
         font-size: 90%;
     }
-}
+}---*/
 
 
 /* --- Begin Top Footer ---*/
 footer {
     background-color: #006998;
+    clear: both;
 }
 
 .topfooter {
@@ -221,7 +235,7 @@ footer {
     margin-bottom: 0;
 }
 
-.topfooter a {
+.topfooter a, .topfooter a p {
     color: #fff;
     font-size: 1.6rem;
 }
@@ -232,6 +246,10 @@ footer {
 
 .footer1, .footer2, .footer3 {
     display: none;
+}
+
+#menu-footer-3 li {
+      margin-left: -40px;
 }
 
 @media screen and (min-width: 992px) {
@@ -246,6 +264,7 @@ footer {
         text-align: center;
     }
 }
+
 
 .footer3 img {
     display: block;
@@ -314,6 +333,54 @@ footer {
     }
 }
 
+
+/* WRAPPER */
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* INDEX */
+
+.homepage {
+  background-color: #fff;
+  clear: both;
+}
+
+.widget-intro, .widget-agent, .widget-news, .widget-subscribe, .widget-claim {
+  padding: 30px;
+}
+
+.products {
+  background-color: #C4DFE0;
+}
+
+.social-media-bar {
+  background-color: #006998;
+  clear: both;
+}
+
+.social-image-wrapper {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 466px;
+}
+
+.social-media-bar img {
+  padding: 15px;
+  width: 19%;
+}
+
+.claim, .slider, .products {
+  padding: 15px
+}
+
+.aqua {
+  background-color: #C4DFE0;
+}
 
 /* FOUR-EIGHT-WIDTH PAGE */
 
