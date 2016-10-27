@@ -39,6 +39,7 @@ h3 {
 p {
   font-family: 'Avenir Next';
   color: #222222;
+  font-size: 1.8rem;
 }
 
 /*--- Global Menu --- */
@@ -248,7 +249,7 @@ footer {
     display: none;
 }
 
-#menu-footer-3 li {
+.topfooter li {
       margin-left: -40px;
 }
 
@@ -284,7 +285,6 @@ footer {
 
 .socialfooter {
     padding-top: 6px;
-    width: 261px;
     margin: auto;
 }
 
