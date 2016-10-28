@@ -45,6 +45,7 @@ p {
   font-family: 'Avenir Next';
   color: #222222;
   font-size: 1.8rem;
+  margin-bottom: 10px;
 }
 
 /*--- Global Menu --- */
@@ -504,4 +505,38 @@ input[type="search"] {
 
 .post-content h2 {
     margin-top: 40px;
+}
+
+
+/* Full-Width Page */
+
+.hero-fullwidth {
+  margin-top: 125px;
+  margin-bottom: 40px;
+}
+
+.hero-fullwidth h1 {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: #006998;
+}
+
+.fullwidth-content h1, .fullwidth-content h2, .fullwidth-content h3, .fullwidth-content h4, .fullwidth-content p {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.fullwidth-content iframe {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+@media screen and (min-width: 992px) {
+  .fullwidth-content iframe {
+    width: 100%;
+  }
 }
