@@ -14,15 +14,15 @@ function blank_widgets_init() {
         ));
 
 	/* Product Slider */
-		register_sidebar( array(
-				'name' 			=> ('Products Widget'),
-				'id' 			=> 'products-widget',
-				'description'   => 'Products slider goes in here',
-				'before_widget' => '<div class="widget-products">',
-				'after_widget'  => '</div>',
-				'before_title'  => '<h2>',
-				'after_title'   => '</h2>'
-				));
+	register_sidebar( array(
+			'name' 			=> ('Products Widget'),
+			'id' 			=> 'products-widget',
+			'description'   => 'Products slider goes in here',
+			'before_widget' => '<div class="widget-products">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h2>',
+			'after_title'   => '</h2>'
+			));
 
 	/* Intro Widget */
     register_sidebar( array(

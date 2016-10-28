@@ -540,3 +540,12 @@ input[type="search"] {
     width: 100%;
   }
 }
+
+
+/* POST PAGE */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}

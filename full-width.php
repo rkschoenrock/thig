@@ -26,12 +26,12 @@ Template name: Full-Width
                     <h1><?php the_title(); ?></h1>
     </div>
 
-<div class="fullwidth-content">
-                <?php the_content();
+    <div class="fullwidth-content">
+        <?php the_content();
             }
         } ?>
         <!-- End Loop -->
-</div>
+    </div>
 <!-- End Section Wrapper + Container -->
 
 

@@ -1,3 +1,9 @@
+<?php
+/*
+Template name: Post-will-become-single
+*/
+?>
+
 <?php get_header(); ?>
 
 <!-- Begin Section Container -->
