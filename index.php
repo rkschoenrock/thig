@@ -14,8 +14,20 @@
         </article>
 
         <!-- ROW 2: Get a Quote -->
-        <article class="wrapper">
-            <p>Get a Quote form will go in here</p>
+        <article class="wrapper quote">
+            <p>Get an insurance quote in seconds...</p>
+            <form method="post" action="#" class="quoteform">
+                  <label for="quote">Quote Type</label>
+                  <select class="form-control" id="quote">
+                      <option>Homeowners</option>
+                      <option>High Value Homes</option>
+                      <option>Flood Insurance</option>
+                      <option>Rental Property</option>
+                  </select>
+                  <label for="usr">Zip Code</label>
+                  <input type="text" class="quote-zipcode" placeholder="Zip Code" />
+                  <input type="submit" name="submit" value="GET A QUOTE" class="submit-button" />
+              </form>
         </article>
 
         <!-- ROW 3: Our Products -->
@@ -30,8 +42,13 @@
             <article class="col-md-8">
                 <?php dynamic_sidebar('intro-widget'); ?>
             </article>
-            <article class="col-md-4">
-                <?php dynamic_sidebar('agent-widget'); ?>
+            <article class="col-md-4 agent">
+                <h3>Find an Agent</h3>
+                <form method="post" action="#" class="agentform">
+                      <label for="usr">Location</label>
+                      <input type="text" class="agent-zipcode" placeholder="Zip Code" />
+                      <input type="submit" name="submit" value="GO!" class="submit-button" />
+                  </form>
             </article>
         </div>
 
@@ -48,7 +65,16 @@
 
         <!-- ROW 6: How to File a Claim -->
         <article class="wrapper claim">
-            <?php dynamic_sidebar('claim-widget'); ?>
+            <h2>How To File a Claim</h2>
+            <div class="col-md-4">
+              <?php dynamic_sidebar('claim-widget1'); ?>
+            </div>
+            <div class="col-md-4">
+              <?php dynamic_sidebar('claim-widget2'); ?>
+            </div>
+            <div class="col-md-4">
+              <?php dynamic_sidebar('claim-widget3'); ?>
+            </div>
         </article>
 
         <!-- ROW 7: Latest News and Subscribe -->
@@ -57,8 +83,14 @@
                 <article class="col-md-8">
                     <?php dynamic_sidebar('news-widget'); ?>
                 </article>
-                <article class="col-md-4">
-                    <?php dynamic_sidebar('subscribe-widget'); ?>
+                <article class="col-md-4 subscribe">
+                  <h3>Subscribe</h3>
+                  <p>Join our mailing list to receive the latest news.</p>
+                  <form method="post" action="#" class="subscribeform">
+                        <label for="usr">Email Address</label>
+                        <input type="text" class="subscribe-address" placeholder="Email Address" />
+                        <input type="submit" name="submit" value="JOIN" class="submit-button" />
+                    </form>
                 </article>
             </div>
         </div>

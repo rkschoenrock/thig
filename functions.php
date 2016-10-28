@@ -37,10 +37,28 @@ function blank_widgets_init() {
 
 	/* File Claim Widget */
     register_sidebar( array(
-        'name' 			=> ('Claim Widget'),
-        'id' 			=> 'claim-widget',
-        'description'   => 'How to file a claim',
-        'before_widget' => '<div class="widget-claim">',
+        'name' 			=> ('Claim1 Widget'),
+        'id' 			=> 'claim-widget1',
+        'description'   => 'How to file a claim 1',
+        'before_widget' => '<div class="widget-claim1">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>'
+        ));
+		register_sidebar( array(
+        'name' 			=> ('Claim2 Widget'),
+        'id' 			=> 'claim-widget2',
+        'description'   => 'How to file a claim2',
+        'before_widget' => '<div class="widget-claim2">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>'
+        ));
+		register_sidebar( array(
+        'name' 			=> ('Claim3 Widget'),
+        'id' 			=> 'claim-widget3',
+        'description'   => 'How to file a claim3',
+        'before_widget' => '<div class="widget-claim3">',
         'after_widget'  => '</div>',
         'before_title'  => '<h2>',
         'after_title'   => '</h2>'
