@@ -45,21 +45,21 @@
             <article class="col-md-4 agent">
                 <h3>Find an Agent</h3>
                 <form method="post" action="#" class="agentform">
-                      <label for="usr">Location</label>
-                      <input type="text" class="agent-zipcode" placeholder="Zip Code" />
-                      <input type="submit" name="submit" value="GO!" class="submit-button" />
-                  </form>
+                    <label for="usr">Location</label>
+                    <input type="text" class="agent-zipcode" placeholder="Zip Code" />
+                    <input type="submit" name="submit" value="GO!" class="submit-button" />
+                </form>
             </article>
         </div>
 
         <!-- ROW 5: Social Media Bar -->
         <article class="social-media-bar">
             <div class="social-image-wrapper">
-                <a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/facebook.jpg" /></a>
-                <a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/twitter.jpg" /></a>
-                <a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/linkedin.jpg" /></a>
-                <a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/google.jpg" /></a>
-                <a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/youtube.jpg" /></a>
+                <a href="http://www.facebook.com/towerhillinsurance" target="_blank"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/facebook.jpg" /></a>
+				<a href="http://twitter.com/towerhillins" target="_blank"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/twitter.jpg" /></a>
+				<a href="http://www.linkedin.com/companies/tower-hill-insurance-group" target="_blank"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/linkedin.jpg" /></a>
+				<a href="https://plus.google.com/105804151886602918803" target="_blank"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/google.jpg" /></a>
+				<a href="http://www.youtube.com/towerhillinsurance" target="_blank"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/youtube.jpg" /></a>
             </div>
         </article>
 
