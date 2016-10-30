@@ -36,7 +36,7 @@
             </div>
     			  <div class="col-md-12 topmenu">
       			    <?php wp_nav_menu( array( 'theme_location' => 'top-menu' ) ); ?>
-                <a href="index.php">
+                <a href="http://www.rebeccaschoenrock.com/thig/">
                     <img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/TH-Horiz-4c-Stacked.png" width="260px" alt="Tower Hill Insurance Group" />
                 </a>
     			  </div>

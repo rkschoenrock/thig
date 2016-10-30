@@ -9,13 +9,14 @@ Template name: Full-Width
 <!-- Begin Section Container -->
 
 
-<?php if (has_post_thumbnail( $post->ID ) ): ?>
-    <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
-    $image = $image[0]; ?>
-<?php else :
-    $image = get_bloginfo( 'stylesheet_directory') . '/images/default_cat_img.jpg'; ?>
-<?php endif; ?>
-    <div class="hero-fullwidth" style="background-image: url('<?php echo $image; ?>')" >
+<?php if (have_posts()) :
+	while (have_posts()) : the_post();
+	if ( has_post_thumbnail() ) { ?>
+		<div class="post-thumbnail"><?php the_post_thumbnail('large'); ?></div>
+	<?php } ?>
+		<?php
+	endwhile;
+endif; ?>
 
             <!-- Begin Loop -->
             <?php if ( have_posts() ) {
@@ -23,10 +24,10 @@ Template name: Full-Width
                     /* Our data context is defined */
                     the_post(); ?>
 
-                    <h1><?php the_title(); ?></h1>
-    </div>
 
+    </div>
     <div class="fullwidth-content">
+		<h1><?php the_title(); ?></h1>
         <?php the_content();
             }
         } ?>

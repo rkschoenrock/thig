@@ -7,7 +7,7 @@
 		        <?php wp_nav_menu( array( 'theme_location' => 'footer2-menu' ) ); ?>
 		    </div>
 				<div class="col-md-4 footerlogo">
-		        <a href="index.php">
+		        <a href="http://www.rebeccaschoenrock.com/thig/">
 							<img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/TH-Vertical-White-NoTag-1.png" width="200px" alt="Tower Hill Insurance Group" />
 						</a>
 						<p>Look to the Tower &reg;</p>
