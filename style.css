@@ -294,7 +294,7 @@ footer {
   clear: both;
 }
 
-.widget-intro, .widget-agent, .widget-news, .widget-subscribe, .widget-claim {
+.widget-intro, .widget-agent, .widget-news, .widget-subscribe, .widget-claim, .widget-quote {
   padding: 30px;
 }
 
@@ -558,4 +558,37 @@ input[type="search"] {
   width: 100%;
   max-width: 1200px;
   margin: auto;
+}
+
+.datesocialmedia {
+    background-color: #006998;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.datesocialmedia h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.single-social-wrapper {
+    float: right;
+}
+
+.datesocialmedia img {
+    width: 44px;
+}
+
+
+/* SECTION PAGE */
+
+.section img {
+  float: left;
+}
+
+.section p, .section h2, .section h3 {
+  clear: both;
 }

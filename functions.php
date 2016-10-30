@@ -74,6 +74,16 @@ function blank_widgets_init() {
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
 		));
+	/* Quote Widget */
+	register_sidebar( array(
+		'name'	 		=> ('Quote Widget'),
+		'id' 	 		=> 'quote-widget',
+		'description'	=> 'Quote widget',
+		'before_widget' => '<div class="widget-quote">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+		));
 
 	/* Latest News Widget */
 	register_sidebar( array(
