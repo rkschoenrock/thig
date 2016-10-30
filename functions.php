@@ -126,7 +126,8 @@ function register_my_menus() {
     	'top-menu' => __( 'Top Menu' ),
     	'footer1-menu' => __( 'Footer Menu 1' ),
     	'footer2-menu' => __( 'Footer Menu 2' ),
-    	'footer3-menu' => __( 'Footer Menu 3' )
+    	'footer3-menu' => __( 'Footer Menu 3' ),
+			'ourcompany-menu' => __( 'Our Company Menu' )
     )
   );
 }
@@ -136,6 +137,7 @@ add_action( 'init', 'register_my_menus' );
 /*--- Enable Post Thumbnails ---*/
 
 add_theme_support( 'post-thumbnails' );
+add_theme_support( 'post-thumbnail' );
 
 
 /*----- Custom Banner Thumbnail (index.php) -----*/

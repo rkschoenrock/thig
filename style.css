@@ -24,6 +24,7 @@ html, body {
 h1 {
   font-family: 'Playfair Display';
   color: #222222;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -155,6 +156,7 @@ p {
 footer {
     background-color: #006998;
     clear: both;
+    margin-top: 40px;
 }
 
 .topfooter {
@@ -279,6 +281,36 @@ footer {
 }
 
 
+/* SECTION CONTENT MENU */
+
+.menu-sub-menu-for-pages-container ul li {
+  width: 150px;
+  text-transform: uppercase;
+  list-style: none;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.menu-sub-menu-for-pages-container > ul > li {
+  font-family: 'Playfair Display';
+  color: #006998;
+  margin-bottom: 10px;
+}
+
+
+.menu-sub-menu-for-pages-container ul li ul li {
+  font-weight: normal;
+  margin-left: -40px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #222222;
+  font-family: 'Avenir Next';
+}
+
+.menu-sub-menu-for-pages-container ul li ul li {
+  color: #222222;
+}
+
+
 /* WRAPPER */
 
 .wrapper {
@@ -294,8 +326,11 @@ footer {
   clear: both;
 }
 
-.widget-intro, .widget-agent, .widget-news, .widget-subscribe, .widget-claim, .widget-quote {
+.widget-intro, .widget-agent, .widget-subscribe, .widget-claim, .widget-quote, .widget-news {
   padding: 30px;
+  width: 100%;
+  max-width: 340px;
+  margin: auto;
 }
 
 .widget-intro {
@@ -458,6 +493,8 @@ footer {
 
 .widget-news a {
   color: #222222;
+  display: block;
+  clear: both;
 }
 
 .post-date {
@@ -523,6 +560,13 @@ input[type="search"] {
 .hero-fullwidth {
   margin-top: 125px;
   margin-bottom: 40px;
+  background-image: url('<?php echo $image; ?>');
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 340px;
+overflow: hidden;
 }
 
 .hero-fullwidth h1 {
@@ -587,8 +631,33 @@ input[type="search"] {
 
 .section img {
   float: left;
+  display: inline;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.section h2+p {
+  margin-left: 90px;
 }
 
 .section p, .section h2, .section h3 {
+  float: left;
+}
+
+.post-thumbnail img {
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+/* SIDEBAR */
+.sidebar {
   clear: both;
+}
+
+@media screen and (min-width: 992px) {
+  .sidebar {
+    float: right;
+    clear: none;
+  }
 }
