@@ -8,13 +8,13 @@
 
         <!-- ROW 1: Hero Image Slider -->
         <article class="col-md-12 slider">
-            <div class="wrapper">
+            <div class="">
                 <?php dynamic_sidebar('slider-widget'); ?>
             </div>
         </article>
 
         <!-- ROW 2: Get a Quote -->
-        <article class="wrapper quote">
+        <article class="quote">
             <p>Get an insurance quote in seconds...</p>
             <form method="post" action="#" class="quoteform">
                   <label for="quote">Quote Type</label>
@@ -28,13 +28,6 @@
                   <input type="text" class="quote-zipcode" placeholder="Zip Code" />
                   <input type="submit" name="submit" value="GET A QUOTE" class="submit-button" />
               </form>
-        </article>
-
-        <!-- ROW 3: Our Products -->
-        <article class="col-md-12 products">
-            <div class="wrapper">
-                <?php dynamic_sidebar('products-widget'); ?>
-            </div>
         </article>
 
         <!-- ROW 4: Intro and Find an Agent -->
@@ -63,16 +56,23 @@
             </div>
         </article>
 
+        <!-- ROW 3: Our Products -->
+        <article class="col-md-12 products">
+            <div class="wrapper">
+                <?php dynamic_sidebar('products-widget'); ?>
+            </div>
+        </article>
+
         <!-- ROW 6: How to File a Claim -->
         <article class="wrapper claim">
             <h2>How To File a Claim</h2>
-            <div class="col-md-4">
+            <div class="col-md-4 claim-p">
               <?php dynamic_sidebar('claim-widget1'); ?>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 claim-p">
               <?php dynamic_sidebar('claim-widget2'); ?>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 claim-p">
               <?php dynamic_sidebar('claim-widget3'); ?>
             </div>
         </article>

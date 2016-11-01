@@ -326,10 +326,15 @@ footer {
   clear: both;
 }
 
+/* --- Slider ---*/
+.slider {
+    padding: 0 0 15px 0;
+}
+
 .widget-intro, .widget-agent, .widget-subscribe, .widget-claim, .widget-quote, .widget-news {
   padding: 30px;
   width: 100%;
-  max-width: 340px;
+  /*max-width: 340px;*/
   margin: auto;
 }
 
@@ -337,14 +342,30 @@ footer {
   margin-bottom: 20px;
 }
 
+.widget-intro h2 {
+    text-align: center;
+}
+
+.textwidget p {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .widget-intro h2, .textwidget p {
+    text-align: left;
+  }
+}
+
 .quote {
   margin-top: 40px;
   margin-bottom: 40px;
+  background: #C4DFE0;
 }
 
 .quote p {
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 3.5rem;
+  line-height: 1.5em;
 }
 
 .quote label, .agent label, .subscribeform label {
@@ -354,6 +375,7 @@ footer {
 .quote form {
   width: 443px;
   margin: auto;
+  padding-bottom: 30px;
 }
 
 .form-control {
@@ -427,6 +449,21 @@ footer {
   background-color: #C4DFE0;
 }
 
+.widget-products {
+    text-align: center;
+}
+
+/* --- Product Slider ---*/
+.metaslider .caption-wrap {
+    text-align: center;
+    font-size: 1.8em;
+    color: black;
+    margin: 0;
+    display: block;
+    width: 100%;
+    line-height: 1.4em;
+}
+
 .social-media-bar {
   background-color: #006998;
   clear: both;
@@ -444,7 +481,7 @@ footer {
   width: 19%;
 }
 
-.claim, .slider, .products {
+.claim, .products {
   padding: 15px
 }
 
@@ -454,6 +491,23 @@ footer {
 
 .claim h2 {
   text-align: center;
+  margin-top: 1em;
+}
+
+.claim-p {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .claim-p {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .claim h2 {
+    margin-top: 13em;
+  }
 }
 
 .claim .col-md-4 {
@@ -477,6 +531,16 @@ footer {
 
 .aqua {
   background-color: #C4DFE0;
+}
+
+.widget-news {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .widget-news {
+    text-align: left;
+  }
 }
 
 .widget-news ul {
