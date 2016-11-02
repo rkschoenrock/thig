@@ -232,7 +232,7 @@ footer {
 }
 
 .socialfooter img {
-    width: 44px;
+    padding: 4px;
 }
 
 @media screen and (min-width: 992px) {
@@ -710,7 +710,7 @@ overflow: hidden;
 }
 
 .datesocialmedia img {
-    width: 44px;
+    padding: 4px;
 }
 
 
