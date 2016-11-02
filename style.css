@@ -283,6 +283,32 @@ footer {
 }
 
 
+/* SEARCH */
+
+.searches {
+  border-bottom: 1px solid #222222;
+  padding-bottom: 20px;
+}
+
+.search-term {
+  font-style: italic;
+  color: #222222;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.search-title {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.search img {
+  float: left;
+  display: inline;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
 /* SECTION CONTENT MENU */
 
 .menu-sub-menu-for-pages-container ul li {

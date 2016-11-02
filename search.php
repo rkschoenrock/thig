@@ -2,28 +2,32 @@
 /* Template Name: Search Page */
 get_header(); ?>
 
-<div class="row">
-    <div class="twelve columns banner-latest-post">
+<div class="container search">
+	<div class="searches">
         <?php if( have_posts() ) :?>
-            <h2>
+            <h2 class="search-term">"
             <?php printf(
                 get_search_query() );
-            ?></h2>
-    </div>
-    <div class="post-content">
-            <?php while (have_posts()) : the_post(); ?>
-				<h2><?php the_title(); ?></h2>
-				<?php the_content();
+        	?>"</h2>
+	</div>
+
+
+	        <?php while (have_posts()) : the_post(); ?>
+				<a href="<?php the_post(); ?>">
+					<h2 class="search-title"><?php the_title(); ?></h2>
+				</a>
+				<?php the_excerpt();
+
             endwhile;
-         else : ?>
-    </div>
-    <div class="twelve columns banner-latest-post">
+         	else : ?>
+
+
             <h2>Nothing Found</h2>
-    </div>
-    <div class="post-content">
+
             <p>Sorry, but nothing matched your search criteria. Please try again with different search terms.</p>
         <?php endif; ?>
-    </div>
+
 </div>
+
 
 <?php get_footer(); ?>
