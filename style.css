@@ -462,7 +462,30 @@ footer {
     display: block;
     width: 100%;
     line-height: 1.4em;
+    position: initial !important;
 }
+
+@media screen and (min-width: 930px) {
+  .product-slider-desktop {
+    display: initial;
+  }
+  .product-slider-mobile {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 929px) {
+  .product-slider-desktop {
+    display: none;
+  }
+  .product-slider-mobile {
+      display: initial;
+  }
+  .product-slider-mobile .caption-wrap {
+      font-size: 1.2em;
+  }
+}
+
 
 .social-media-bar {
   background-color: #006998;
