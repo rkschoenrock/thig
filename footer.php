@@ -21,11 +21,11 @@
 						</a>
 		    </div>
 				<div class="col-md-2 socialfooter">
-		        <a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/facebook.jpg" /></a>
-						<a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/twitter.jpg" /></a>
-						<a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/linkedin.jpg" /></a>
-						<a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/google.jpg" /></a>
-						<a href="#"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/youtube.jpg" /></a>
+		        <a href="http://www.facebook.com/towerhillinsurance"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/facebook_white-38316.png" width="39px" onmouseover="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/facebook_blue-45019.png'" onmouseout="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/facebook_white-38316.png'" /></a>
+						<a href="http://twitter.com/towerhillins"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/twitter_white-19495.png" width="39px" onmouseover="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/twitter_blue-19495.png'" onmouseout="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/twitter_white-19495.png'" /></a>
+						<a href="http://www.linkedin.com/companies/tower-hill-insurance-group"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/linkedin_white-71108.png" width="40px" onmouseover="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/linkden_blue-71108.png'" onmouseout="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/linkedin_white-71108.png'" /></a>
+						<a href="https://plus.google.com/105804151886602918803"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/googleplus_white-71108.png" width="45px" onmouseover="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/googleplus_blue-71108.png'" onmouseout="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/googleplus_white-71108.png'" /></a>
+						<a href="http://www.youtube.com/towerhillinsurance"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/youtube_white-57833.png" width="40px" onmouseover="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/youtube_blue-19495.png'" onmouseout="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/youtube_white-57833.png'" /></a>
 				</div>
 				</div>
 				<div class="bottomfooter">
