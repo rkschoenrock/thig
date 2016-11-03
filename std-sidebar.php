@@ -6,7 +6,12 @@ Template name: Standard Page with Sidebar
 
 <!-- Begin Section Container -->
 <div class="container post-content">
-<article class="col-md-8">
+
+	<article class="col-md-3 sidebar pull-left">
+		<?php wp_nav_menu( array( 'theme_location' => 'ourcompany-menu' ) ); ?>
+	</article>
+
+<article class="col-md-6">
   <?php if (have_posts()) :
 			while (have_posts()) : the_post();
 			if ( has_post_thumbnail() ) { ?>
@@ -30,8 +35,8 @@ Template name: Standard Page with Sidebar
     } ?>
     <!-- End Loop -->
 </article>
-<article class="col-md-4 sidebar">
-    <?php wp_nav_menu( array( 'theme_location' => 'ourcompany-menu' ) ); ?>
+
+<article class="col-md-3 sidebar">
     <?php dynamic_sidebar('agent-widget'); ?>
     <?php dynamic_sidebar('quote-widget'); ?>
     <?php dynamic_sidebar('news-widget'); ?>

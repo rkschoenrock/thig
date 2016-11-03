@@ -30,11 +30,13 @@ h1 {
 h2 {
   font-family: 'Playfair Display';
   color: #006998;
+  font-size: 24px;
 }
 
 h3 {
   font-family: 'Playfair Display';
   color: #006998;
+  font-size: 22px;
 }
 
 .bottomfooter p {
@@ -157,17 +159,23 @@ p {
 /* --- Breadcrumbs Menu ---*/
 .breadcrumbs {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
-@media screen and (min-width: 649px) {
+@media screen and (min-width: 992px) {
+    .breadcrumbs {
+        margin-bottom: 1em;
+    }
+}
+
+/*@media screen and (min-width: 649px) {
     .breadcrumbs {
         text-align: left;
         font-size: 1.5em;
         margin-left: 3.8em;
         margin-bottom: 1em;
     }
-}
+}*/
 
 /* --- Begin Top Footer ---*/
 footer {
@@ -325,6 +333,17 @@ footer {
 }
 
 /* SECTION CONTENT MENU */
+.menu-sub-menu-for-pages-container {
+    line-height: 2em;
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .menu-sub-menu-for-pages-container {
+        line-height: 2em;
+        display: block;
+    }
+}
 
 .menu-sub-menu-for-pages-container ul li {
   width: 150px;
@@ -352,7 +371,6 @@ footer {
 .menu-sub-menu-for-pages-container ul li ul li {
   color: #222222;
 }
-
 
 /* WRAPPER */
 
@@ -442,7 +460,8 @@ footer {
 }
 
 .subscribe-address {
-  width: 250px;
+  /*width: 250px;*/
+  width: 100%;
 }
 
 .agent-zipcode, .subscribe-address {
@@ -754,7 +773,7 @@ overflow: hidden;
 }
 
 .post-content img {
-  float: left;
+  /*float: left;*/
   display: inline;
   padding-right: 10px;
   padding-left: 10px;
