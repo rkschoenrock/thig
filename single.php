@@ -21,18 +21,20 @@
         </div>
     </div>
 
+	<div class="post-content">
+		<!-- Begin Loop -->
+	    <?php if ( have_posts() ) {
+	        while ( have_posts() ) {
+	            /* Our data context is defined */
+	            the_post(); ?>
 
-	<!-- Begin Loop -->
-    <?php if ( have_posts() ) {
-        while ( have_posts() ) {
-            /* Our data context is defined */
-            the_post(); ?>
+	   <?php the_content();
+	        }
+	    } ?>
+	    <!-- End Loop -->
+		<?php echo do_shortcode( "[yuzo_related]" ); ?>
+	</div>
 
-   <?php the_content();
-        }
-    } ?>
-    <!-- End Loop -->
-	<?php echo do_shortcode( "[yuzo_related]" ); ?>
 </article>
 <article class="col-md-4 sidebar">
     <?php dynamic_sidebar('agent-widget'); ?>
