@@ -152,6 +152,20 @@ p {
     }
 }
 
+/* --- Breadcrumbs Menu ---*/
+.breadcrumbs {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 649px) {
+    .breadcrumbs {
+        text-align: left;
+        font-size: 1.5em;
+        margin-left: 3.8em;
+    }
+}
+
 /* --- Begin Top Footer ---*/
 footer {
     background-color: #006998;
