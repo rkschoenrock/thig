@@ -40,4 +40,15 @@
                     <img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/TH-Horiz-4c-Stacked.png" width="260px" alt="Tower Hill Insurance Group" />
                 </a>
     			  </div>
+
+				  <!-- Breadcrumbs Code -->
+
+				  <?php if(!is_front_page()){ ?>
+					    <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+					        <?php if(function_exists('bcn_display'))
+					        {
+					            bcn_display();
+					        }?>
+					    </div>
+				  <?php } ?>
 		    </header>
