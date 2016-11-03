@@ -824,3 +824,61 @@ overflow: hidden;
     clear: none;
   }
 }
+
+/* CONTACT PAGE */
+.mini-border {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .mini-border {
+        border-top: 3px solid #006998;
+        width: 35%;
+        margin-top: 8em;
+        margin-left: 22%;
+        clear: both;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .mini-contact-info-right,
+    .mini-contact-info-left {
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+    .contact-heading {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 649px) and (max-width: 991px) {
+    .mini-contact-info-right {
+        margin-bottom: 2em;
+    }
+}
+
+.main-contact-content {
+    line-height: 2em;
+    margin-top: 2em;
+}
+
+.contact-heading {
+    color: #006998;
+}
+
+/* Contact Page Ninja Forms */
+.ninja-forms-field {
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+
+#ninja_forms_field_14_div_wrap {
+    border: none;
+}
+
+#ninja_forms_field_15 {
+    background-color: #006998;
+    color: #fff;
+}
