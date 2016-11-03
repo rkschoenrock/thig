@@ -3,8 +3,7 @@
 
 get_header(); ?>
 
-<div class="row">
-    <div class="twelve columns">
+<div class="container">
         <?php if ( have_posts() ) : ?>
             <h2>Archives</h2>
             <?php
@@ -19,10 +18,7 @@ get_header(); ?>
         <?php else: ?>
             <p>Sorry, no posts matched your criteria.</p>
         <?php endif; ?>
-    </div>
-</div>
-<div class="row">
-    <div class="twelve columns">
+
         <h2>Archives by Month:</h2>
         <ul>
             <?php wp_get_archives('type=monthly'); ?>
@@ -31,6 +27,5 @@ get_header(); ?>
         <ul>
              <?php wp_list_categories(); ?>
         </ul>
-    </div>
 </div>
 <?php get_footer(); ?>
