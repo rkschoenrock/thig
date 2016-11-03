@@ -139,7 +139,7 @@ p {
     margin: auto;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 992px) {
     .topmenu img {
         display: inline;
     }
