@@ -1,3 +1,8 @@
+<?php
+/*
+Template name: Recent News List
+*/
+?>
 <?php get_header(); ?>
 
 <!-- Begin Section Container -->
@@ -32,6 +37,7 @@
 	        }
 	    } ?>
 	    <!-- End Loop -->
+		<?php echo do_shortcode( "[yuzo_related]" ); ?>
 	</div>
 
 </article>
