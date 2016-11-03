@@ -55,8 +55,8 @@ p {
 
 .globalmenu {
     background-color: #C4DFE0;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 0;
     display: none;
 }
 
@@ -73,7 +73,7 @@ p {
     padding: 10px;
     color: #222222;
     font-family: 'Avenir Next';
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
 }
 
