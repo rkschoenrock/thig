@@ -665,14 +665,6 @@ input[type="search"] {
     float: right;
 }
 
-.post-content {
-    padding: 40px;
-}
-
-.post-content h2 {
-    margin-top: 40px;
-}
-
 
 /* Full-Width Page */
 
@@ -743,6 +735,13 @@ overflow: hidden;
 
 .datesocialmedia img {
     padding: 4px;
+}
+
+.post-content img {
+  float: left;
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 
