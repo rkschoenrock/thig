@@ -8,7 +8,7 @@
     <h1><?php the_title(); ?></h1>
     <div class="datesocialmedia">
         <div class="col-md-6">
-            <h2><?php the_time('F jS, Y') ?> by <?php the_author(); ?></h2>
+            <h2><?php the_time('F jS, Y') ?> by <?php the_author_meta('display_name', $post->post_author ); ?></h2>
         </div>
         <div class="col-md-6">
             <div class="single-social-wrapper">
