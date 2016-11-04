@@ -387,9 +387,17 @@ footer {
   clear: both;
 }
 
+#wp-live-chat {
+    right: 5px !important;
+}
+
 /* --- Slider ---*/
 .slider {
     padding: 0 0 15px 0;
+}
+
+.flex-next {
+    right: 0 !important;
 }
 
 .widget-intro, .widget-agent, .widget-subscribe, .widget-claim, .widget-quote, .widget-news {
@@ -444,9 +452,15 @@ footer {
 }
 
 .quote form {
-  width: 443px;
+  max-width: 100%;
   margin: auto;
   padding-bottom: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    .quote form {
+        width: 443px;
+    }
 }
 
 .form-control {
