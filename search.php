@@ -5,10 +5,10 @@ get_header(); ?>
 <div class="container search">
 	<div class="searches">
         <?php if( have_posts() ) :?>
-            <h2 class="search-term">"
+            <h1 class="search-term">"
             <?php printf(
                 get_search_query() );
-        	?>"</h2>
+        	?>"</h1>
 	</div>
 
 
@@ -22,7 +22,7 @@ get_header(); ?>
          	else : ?>
 
 
-            <h2>Nothing Found</h2>
+            <h1>Nothing Found</h1>
 
             <p>Sorry, but nothing matched your search criteria. Please try again with different search terms.</p>
         <?php endif; ?>
