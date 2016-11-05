@@ -4,7 +4,8 @@
 get_header(); ?>
 
 <div class="container">
-        <?php if ( have_posts() ) : ?>
+	<div class="col-md-9">
+		<?php if ( have_posts() ) : ?>
             <h2>Archives</h2>
             <?php
             // The Loop
@@ -27,5 +28,13 @@ get_header(); ?>
         <ul>
              <?php wp_list_categories(); ?>
         </ul>
+	</div>
+
+		<article class="col-md-3 sidebar">
+		    <?php dynamic_sidebar('agent-widget'); ?>
+		    <?php dynamic_sidebar('quote-widget'); ?>
+		    <?php dynamic_sidebar('news-widget'); ?>
+		    <?php dynamic_sidebar('subscribe-widget'); ?>
+		</article>
 </div>
 <?php get_footer(); ?>
