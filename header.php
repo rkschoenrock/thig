@@ -34,13 +34,17 @@
 					      <?php wp_nav_menu( array( 'theme_location' => 'global-menu' ) ); ?>
 				    </div>
             </div>
-    			  <div class="col-md-12 topmenu">
-      			    <?php wp_nav_menu( array( 'theme_location' => 'top-menu' ) ); ?>
+
+			<div class="col-md-7 pull-right">
+			  <?php wp_nav_menu( array( 'theme_location' => 'top-menu' ) ); ?>
+			</div>
+    			  <div class="col-md-5 topmenu">
+
+
                 <a href="http://www.rebeccaschoenrock.com/thig/">
                     <img class="main-logo" src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/10/TH-Horiz-4c-Stacked.png" width="260px" alt="Tower Hill Insurance Group" />
                 </a>
     			  </div>
-
 				  <!-- Breadcrumbs Code -->
 
 				  <?php if(!is_front_page()){ ?>
