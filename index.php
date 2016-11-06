@@ -5,9 +5,11 @@
 
 
     <section class="homepage">
+        <h1 class="visuallyhidden">Tower Hill Insurance</h1>
 
         <!-- ROW 1: Hero Image Slider -->
         <article class="col-md-12 slider">
+            <h2 class="visuallyhidden">Slider</h2>
             <div class="">
                 <?php dynamic_sidebar('slider-widget'); ?>
             </div>
@@ -15,6 +17,7 @@
 
         <!-- ROW 2: Get a Quote -->
         <article class="quote">
+            <h2 class="visuallyhidden">Get a Quote</h2>
             <p>Get an insurance quote in seconds...</p>
             <form method="post" action="#" class="quoteform">
                   <label for="quote">Quote Type</label>
@@ -33,6 +36,7 @@
         <!-- ROW 4: Intro and Find an Agent -->
         <div class="wrapper">
             <article class="col-md-8">
+                <h2 class="visuallyhidden">Intro</h2>
                 <?php dynamic_sidebar('intro-widget'); ?>
             </article>
             <article class="col-md-4 agent">
@@ -47,6 +51,7 @@
 
         <!-- ROW 5: Social Media Bar -->
         <article class="social-media-bar">
+            <h2 class="visuallyhidden">Social Media</h2>
             <div class="social-image-wrapper">
               <a href="http://www.facebook.com/towerhillinsurance"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/facebook_white-38316.png" width="39px" onmouseover="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/facebook_blue-45019.png'" onmouseout="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/facebook_white-38316.png'" /></a>
               <a href="http://twitter.com/towerhillins"><img src="http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/twitter_white-19495.png" width="39px" onmouseover="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/twitter_blue-19495.png'" onmouseout="this.src='http://www.rebeccaschoenrock.com/thig/wp-content/uploads/2016/11/twitter_white-19495.png'" /></a>
@@ -58,6 +63,7 @@
 
         <!-- ROW 3: Our Products -->
         <article class="col-md-12 products">
+            <h2 class="visuallyhidden">Products</h2>
             <div class="wrapper">
                 <?php dynamic_sidebar('products-widget'); ?>
             </div>

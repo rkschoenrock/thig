@@ -36,6 +36,7 @@ endif; ?>
 
 	<div class="container">
 		<section class="mini-contact-info col-md-7">
+			<h2 class="visuallyhidden">Contact Information and Summary</h2>
 			<div class="mini-contact-info-left col-xs-6">
 				<p>
 					Tower Hill Insurance Group
@@ -88,6 +89,7 @@ endif; ?>
 		</section>
 
 		<section class="col-md-5">
+			<h2 class="visuallyhidden">Contact Form</h2>
 			<?php  if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 5 ); }?>
 		</section>
 
