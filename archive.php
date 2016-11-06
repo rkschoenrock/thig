@@ -31,6 +31,7 @@ get_header(); ?>
 	</div>
 
 		<article class="col-md-3 sidebar">
+			<h2 class="visuallyhidden">Sidebar</h2>
 		    <?php dynamic_sidebar('agent-widget'); ?>
 		    <?php dynamic_sidebar('quote-widget'); ?>
 		    <?php dynamic_sidebar('news-widget'); ?>

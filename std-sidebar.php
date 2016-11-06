@@ -8,6 +8,7 @@ Template name: Standard Page with Sidebar
 <div class="container post-content">
 
 	<article class="col-md-3 sidebar pull-left">
+		<h2 class="visuallyhidden">Side Navigation</h2>
 		<?php wp_nav_menu( array( 'theme_location' => 'ourcompany-menu' ) ); ?>
 	</article>
 
@@ -37,6 +38,7 @@ Template name: Standard Page with Sidebar
 </article>
 
 <article class="col-md-3 sidebar">
+	<h2 class="visuallyhidden">Sidebar</h2>
     <?php dynamic_sidebar('agent-widget'); ?>
     <?php dynamic_sidebar('quote-widget'); ?>
     <?php dynamic_sidebar('news-widget'); ?>
