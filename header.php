@@ -5,7 +5,10 @@
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 
-
+    <!-- Source Sans Pro Google Font - Replace Playfair -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <!-- Open Sans Google Font - Use for everything else -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<!-- Playfair Display Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
 	<!-- Font Awesome -->
