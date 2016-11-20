@@ -8,18 +8,19 @@ License: Open
 Text Domain: slice-company-thig-template
 */
 
-
+/*font-family: 'Source Sans Pro', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
 
 html, body {
-    line-height: 1.5em;
+    line-height: 1.8em;
     background-color: #fff;
-    font-family: 'Avenir Next';
+    font-family: 'Open Sans', sans-serif;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Avenir Next';
     src: url(fonts/AvenirNextLTPro-Cn.otf);
-}
+}*/
 
 .visuallyhidden {
     border: 0;
@@ -34,19 +35,19 @@ html, body {
 }
 
 h1 {
-  font-family: 'Playfair Display';
+  font-family: 'Source Sans Pro', sans-serif;
   color: #222222;
   margin-bottom: 20px;
 }
 
 h2 {
-  font-family: 'Playfair Display';
+  font-family: 'Source Sans Pro', sans-serif;
   color: #006998;
   font-size: 24px;
 }
 
 h3 {
-  font-family: 'Playfair Display';
+  font-family: 'Source Sans Pro', sans-serif;
   color: #006998;
   font-size: 22px;
 }
@@ -57,7 +58,7 @@ h3 {
 
 
 p {
-  font-family: 'Avenir Next';
+  font-family: 'Open Sans', sans-serif;
   color: #222222;
   font-size: 1.8rem;
   margin-bottom: 10px;
@@ -84,7 +85,7 @@ p {
 .globalmenu ul li a {
     padding: 10px;
     color: #222222;
-    font-family: 'Avenir Next';
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
     text-transform: uppercase;
 }
@@ -124,9 +125,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .navbar-default {
     border: none;
     background: white;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     color: black;
     padding-top: 20px;
+}
+
+.dropdown-menu {
+    font-size: 1em;
+    padding-top: 0.5em;
 }
 
 @media screen and (max-width: 991px) {
@@ -186,7 +192,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .topmenu ul li a {
     padding: 10px;
     color: #222222;
-    font-family: 'Avenir Next';
+    font-family: 'Open Sans', sans-serif;
     font-size: 2.2rem;
 }
 
@@ -256,7 +262,7 @@ footer {
 }
 
 .topfooter {
-    font-family: 'Avenir Next';
+    font-family: 'Open Sans', sans-serif;
 }
 
 .topfooter ul li, .topfooter p {
@@ -297,11 +303,13 @@ footer {
 
 
 .footer3 img {
-    display: block;
+    /*display: block;*/
+    padding-top: 17px;
     margin: auto;
 }
 
 .footerlogo img {
+    padding-top: 17px;
     display: block;
     margin: auto;
 }
@@ -310,6 +318,10 @@ footer {
     font-style: italic;
     text-align: center;
     color: #fff;
+}
+
+.socialfooterimg {
+  padding: 4px;
 }
 
 .socialfooter {
@@ -416,7 +428,7 @@ footer {
 }
 
 .menu-sub-menu-for-pages-container > ul > li {
-  font-family: 'Playfair Display';
+  font-family: 'Source Sans Pro', sans-serif;
   color: #006998;
   margin-bottom: 10px;
 }
@@ -427,7 +439,7 @@ footer {
   margin-left: -30px;
   margin-bottom: 10px;
   border-bottom: 1px solid #222222;
-  font-family: 'Avenir Next';
+  font-family: 'Open Sans', sans-serif;
 }
 
 .menu-sub-menu-for-pages-container ul li ul li {
@@ -463,14 +475,14 @@ footer {
 }
 
 .widget-intro, .widget-agent, .widget-subscribe, .widget-claim, .widget-quote, .widget-news {
-  padding: 30px;
+  padding: 18px;
   width: 100%;
   /*max-width: 340px;*/
   margin: auto;
 }
 
 @media screen and (min-width: 992px) {
-    .widget-agent {
+    .widget-quote {
         padding-top: 0;
     }
 }
@@ -562,7 +574,7 @@ footer {
 }
 
 .submit-button {
-  width: 125px;
+  /*width: 125px;*/
   padding: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -588,7 +600,7 @@ footer {
 
 @media screen and (min-width: 992px) {
   .quote select, .quote-zipcode {
-    margin: 10px;
+    margin: 10px auto;
     display: inline;
   }
 }
@@ -721,7 +733,7 @@ footer {
 
 .widget-news ul li {
   list-style: none;
-  font-family: 'Playfair Display';
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -867,6 +879,9 @@ overflow: hidden;
 
 
 /* SECTION PAGE */
+.sidebar-section {
+  margin-top: 2em;
+}
 
 .section img {
   float: left;
@@ -879,9 +894,11 @@ overflow: hidden;
   margin-left: 90px;
 }
 
-.section p, .section h2, .section h3 {
+/* If alignment breaks - check here first and add code back */
+
+/*.section p, .section h2, .section h3 {
   float: left;
-}
+}*/
 
 .post-thumbnail img {
   margin-bottom: 20px;
@@ -899,6 +916,10 @@ overflow: hidden;
     float: right;
     clear: none;
   }
+}
+
+.sidebar-color {
+  background: rgba(173, 216, 230, 0.5);
 }
 
 /* CONTACT PAGE */
