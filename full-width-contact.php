@@ -26,6 +26,7 @@ endif; ?>
 
 
     </div>
+
     <div class="fullwidth-content">
 		<h1 class="contact-heading"><?php the_title(); ?></h1>
         <?php the_content();

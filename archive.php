@@ -6,7 +6,7 @@ get_header(); ?>
 <div class="container">
 	<div class="col-md-9">
 		<?php if ( have_posts() ) : ?>
-            <h2>Archives</h2>
+            <h1>Archives</h1>
             <?php
             // The Loop
             while ( have_posts() ) : the_post();?>

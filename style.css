@@ -395,7 +395,7 @@ footer {
 }
 
 .search-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-decoration: underline;
 }
 
@@ -511,7 +511,6 @@ footer {
 
 .quote {
   margin-top: 40px;
-  margin-bottom: 40px;
   background: #C4DFE0;
 }
 
@@ -519,6 +518,7 @@ footer {
   text-align: center;
   font-size: 3.5rem;
   line-height: 1.5em;
+  padding-top: 0.5em;
 }
 
 .quote label, .agent label, .subscribeform label {
@@ -607,7 +607,12 @@ footer {
 
 .products {
   background-color: #C4DFE0;
-  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 992px) {
+  .products {
+    margin-bottom: 40px;
+  }
 }
 
 .widget-products {
@@ -662,7 +667,6 @@ footer {
 
 .social-media-bar img {
   padding: 15px;
-  width: 19%;
 }
 
 .claim, .products {
@@ -871,12 +875,15 @@ overflow: hidden;
 }
 
 .post-content img {
-  /*float: left;*/
+  float: left;
   display: inline;
   padding-right: 10px;
   padding-left: 10px;
 }
 
+/*.post-content ul li {
+  font-size: 1.8rem;
+}*/
 
 /* SECTION PAGE */
 .sidebar-section {
@@ -890,13 +897,21 @@ overflow: hidden;
   margin-top: 10px;
 }
 
+@media screen and (min-width: 649px) {
 .section h2+p {
   margin-left: 90px;
+  }
 }
 
+<<<<<<< HEAD
+/*.section p, .section h2, .section h3 {
+||||||| merged common ancestors
+.section p, .section h2, .section h3 {
+=======
 /* If alignment breaks - check here first and add code back */
 
 /*.section p, .section h2, .section h3 {
+>>>>>>> 18c3a66402712be5c76de5ac217ba3155528f442
   float: left;
 }*/
 

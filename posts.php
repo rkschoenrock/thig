@@ -1,3 +1,8 @@
+<?php
+/*
+Template name: Recent News List
+*/
+?>
 <?php get_header(); ?>
 
 <!-- Begin Section Container -->
@@ -8,7 +13,7 @@
     <h1><?php the_title(); ?></h1>
     <div class="datesocialmedia">
         <div class="col-md-6">
-            <h2><?php the_time('F jS, Y') ?> by <?php the_author_meta('display_name', $post->post_author ); ?></h2>
+            <h2><?php the_time('F jS, Y') ?> by <?php the_author(); ?></h2>
         </div>
         <div class="col-md-6">
             <div class="single-social-wrapper">
@@ -32,11 +37,11 @@
 	        }
 	    } ?>
 	    <!-- End Loop -->
+		<?php echo do_shortcode( "[yuzo_related]" ); ?>
 	</div>
 
 </article>
 <article class="col-md-4 sidebar">
-	<h2 class="visuallyhidden">Sidebar</h2>
     <?php dynamic_sidebar('agent-widget'); ?>
     <?php dynamic_sidebar('quote-widget'); ?>
     <?php dynamic_sidebar('news-widget'); ?>
