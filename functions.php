@@ -71,8 +71,8 @@ function blank_widgets_init() {
 		'description'	=> 'Agent widget',
 		'before_widget' => '<div class="widget-agent">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>'
 		));
 	/* Quote Widget */
 	register_sidebar( array(
@@ -81,19 +81,19 @@ function blank_widgets_init() {
 		'description'	=> 'Quote widget',
 		'before_widget' => '<div class="widget-quote">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>'
 		));
 
-	/* Latest News Widget */
+	/* Recent News Widget */
 	register_sidebar( array(
 		'name'	 		=> ('News Widget'),
 		'id' 	 		=> 'news-widget',
 		'description'	=> 'Latest News widget',
 		'before_widget' => '<div class="widget-news">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>'
 		));
 
 
