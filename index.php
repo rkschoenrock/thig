@@ -87,7 +87,7 @@
         <div class="aqua col-md-12">
             <div class="wrapper">
                 <article class="col-md-8">
-                    <?php dynamic_sidebar('news-widget'); ?>
+                    <?php dynamic_sidebar('news-widget-homepage'); ?>
                 </article>
                 <article class="col-md-4 subscribe">
                   <h2>Subscribe</h2>

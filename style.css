@@ -131,7 +131,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .dropdown-menu {
-    font-size: 1em;
+    font-size: .8em;
     padding-top: 0.5em;
 }
 
@@ -445,6 +445,7 @@ footer {
   margin-bottom: 10px;
   border-bottom: 1px solid #222222;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
 }
 
 .menu-sub-menu-for-pages-container ul li ul li {
@@ -516,6 +517,11 @@ footer {
   .widget-intro h2, .textwidget p {
     text-align: left;
   }
+}
+
+.widget-quote p, .widget-subscribe p {
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
 }
 
 .quote {
@@ -864,6 +870,7 @@ overflow: hidden;
   width: 100%;
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .datesocialmedia {
@@ -895,14 +902,20 @@ overflow: hidden;
   padding-left: 10px;
 }
 
+/*@media screen and (min-width: 992px) {
+  .post {
+    padding: 20px;
+  }
+}*/
+
 /*.post-content ul li {
   font-size: 1.8rem;
 }*/
 
 /* SECTION PAGE */
-.sidebar-section {
+/*.sidebar-section {
   margin-top: 2em;
-}
+}*/
 
 .section img {
   float: left;
@@ -917,7 +930,7 @@ overflow: hidden;
   }
 }
 
-<<<<<<< HEAD
+/* ---------------HEAD----------------*/
 /*.section p, .section h2, .section h3 {
 ||||||| merged common ancestors
 .section p, .section h2, .section h3 {
