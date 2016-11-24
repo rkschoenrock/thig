@@ -96,9 +96,9 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
 		));
 
-	/* Latest News Widget */
+	/* Recent News Widget SIDEBAR */
 	register_sidebar( array(
-		'name'	 		=> ('News Widget'),
+		'name'	 		=> ('News Widget Sidebar'),
 		'id' 	 		=> 'news-widget',
 		'description'	=> 'Latest News widget',
 		'before_widget' => '<div class="widget-news">',
@@ -107,6 +107,16 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
 		));
 
+		/* Recent News Widget HOMEPAGE*/
+		register_sidebar( array(
+			'name'	 		=> ('News Widget Homepage'),
+			'id' 	 		=> 'news-widget-homepage',
+			'description'	=> 'Recent News Homepage widget',
+			'before_widget' => '<div class="widget-news">',
+					'after_widget'  => '</div>',
+					'before_title'  => '<h2>',
+					'after_title'   => '</h2>'
+			));
 
 	/* Subscribe Widget */
 	register_sidebar( array(

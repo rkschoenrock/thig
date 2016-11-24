@@ -43,7 +43,7 @@ h1 {
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   color: #006998;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 h3 {
@@ -60,7 +60,7 @@ h3 {
 p {
   font-family: 'Open Sans', sans-serif;
   color: #222222;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 10px;
 }
 
@@ -86,7 +86,7 @@ p {
     padding: 10px;
     color: #222222;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
 }
 
@@ -131,7 +131,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .dropdown-menu {
-    font-size: 1em;
+    font-size: .8em;
     padding-top: 0.5em;
 }
 
@@ -249,7 +249,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 footer {
     background-color: #006998;
     clear: both;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
 }
 
 .topfooter {
@@ -274,6 +274,7 @@ footer {
 .topfooter a, .topfooter a p {
     color: #fff;
     font-size: 1.6rem;
+    font-family: Source Sans Pro;
 }
 
 .topfooter a:hover {
@@ -286,6 +287,10 @@ footer {
 
 .topfooter li {
       margin-left: -40px;
+}
+
+.socialmediafooter {
+  padding-top: 25px;
 }
 
 @media screen and (min-width: 992px) {
@@ -372,7 +377,7 @@ footer {
 @media screen and (min-width: 992px) {
     .bottomfooter {
         text-align: left;
-        padding: 20px 45px 35px 10px;
+        padding: 12px 45px 35px 10px;
     }
     .bottomfooter p {
         padding-left: 15px;
@@ -440,6 +445,7 @@ footer {
   margin-bottom: 10px;
   border-bottom: 1px solid #222222;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
 }
 
 .menu-sub-menu-for-pages-container ul li ul li {
@@ -481,6 +487,10 @@ footer {
   margin: auto;
 }
 
+.agent, .subscribe {
+  padding: 18px;
+}
+
 @media screen and (min-width: 992px) {
     .widget-quote {
         padding-top: 0;
@@ -509,8 +519,13 @@ footer {
   }
 }
 
+.widget-quote p, .widget-subscribe p {
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+}
+
 .quote {
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   background: #C4DFE0;
 }
 
@@ -609,15 +624,20 @@ footer {
   background-color: #C4DFE0;
 }
 
+.widget-products {
+    text-align: center;
+    padding-top: 10px;
+}
+
 @media screen and (min-width: 992px) {
   .products {
     margin-bottom: 40px;
   }
+  .widget-products {
+    padding-top: 30px;
+  }
 }
 
-.widget-products {
-    text-align: center;
-}
 
 /* --- Product Slider ---*/
 .metaslider .caption-wrap {
@@ -712,7 +732,7 @@ footer {
 }
 
 .borderradius h3 {
-  font-size: 3.7rem;
+  font-size: 4.2rem;
   color: #fff;
   text-align: center;
 }
@@ -721,7 +741,7 @@ footer {
   background-color: #C4DFE0;
 }
 
-.widget-news {
+.widget-news, .subscribe h2, .agent h2 {
     text-align: center;
 }
 
@@ -850,6 +870,7 @@ overflow: hidden;
   width: 100%;
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .datesocialmedia {
@@ -881,14 +902,20 @@ overflow: hidden;
   padding-left: 10px;
 }
 
+/*@media screen and (min-width: 992px) {
+  .post {
+    padding: 20px;
+  }
+}*/
+
 /*.post-content ul li {
   font-size: 1.8rem;
 }*/
 
 /* SECTION PAGE */
-.sidebar-section {
+/*.sidebar-section {
   margin-top: 2em;
-}
+}*/
 
 .section img {
   float: left;
@@ -903,7 +930,7 @@ overflow: hidden;
   }
 }
 
-<<<<<<< HEAD
+/* ---------------HEAD----------------*/
 /*.section p, .section h2, .section h3 {
 ||||||| merged common ancestors
 .section p, .section h2, .section h3 {
@@ -934,7 +961,7 @@ overflow: hidden;
 }
 
 .sidebar-color {
-  background: rgba(173, 216, 230, 0.5);
+  background: #C4DFE0;
 }
 
 /* CONTACT PAGE */
