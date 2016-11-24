@@ -1,4 +1,15 @@
 <?php
+
+/*-------------- Look for Stylesheets--------------- */
+wp_enqueue_style( 'multilevelpushmenu', get_template_directory_uri() . '/css/multilevelpushmenu.css',false,'1.1','all');
+
+/*-------------- Look for JavaScript--------------- */
+
+wp_enqueue_script( 'multilevelpushmenuu', get_template_directory_uri() . '/js/multilevelpushmenuu.js', array ( 'jquery' ), '1.1', true);
+
+
+
+
 /*-------------- Enable Widgets--------------- */
 
 function blank_widgets_init() {

@@ -42,6 +42,42 @@
 
 </div> <!-- End Container Div -->
 <?php wp_footer(); ?>
+<!-- <script>
+jQuery(document).ready(function(){
+    // HTML markup implementation, overlap mode, initilaize collapsed
+    jQuery( '#menu' ).multilevelpushmenu({
+        containersToPush: [jQuery( '#pushobj' )],
+        collapsed: true
+    });
+});
+</script> -->
+<!-- <script>
+jQuery(document).ready(function(){
+    // HTML markup implementation, overlap mode
+    jQuery( '#menu' ).multilevelpushmenu({
+        containersToPush: [jQuery( '#pushobj' )]
+    });
+});
+</script> -->
+
+<!-- <script>
+jQuery( '#menu' ).multilevelpushmenu({
+    menuHeight: '100%'
+});
+jQuery( window ).resize(function() {
+    jQuery( '#menu' ).multilevelpushmenu( 'redraw' );
+});
+</script> -->
+
+<script>
+jQuery(document).ready(function(){
+    // HTML markup implementation, overlap mode, initilaize collapsed
+    jQuery( '#menu' ).multilevelpushmenu({
+        containersToPush: [jQuery( '#pushobj' )],
+        collapsed: true
+    });
+});
+</script>
 </body>
 
 </html>

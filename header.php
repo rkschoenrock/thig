@@ -19,17 +19,86 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
 	    <link rel="stylesheet" type="text/css" href="
 	        <?php bloginfo('stylesheet_url'); ?>
 	    " />
-
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div class="container-fluid"> <!-- Begin Fluid Container Div -->
-
+    <div id="pushobj" class="container-fluid"> <!-- Begin Fluid Container Div -->
+      <div id="menu">
+        <nav id="multilevelpushmenu">
+          <h2><i class="fa fa-reorder"></i>Tower Hill Insurance</h2>
+          <ul>
+              <li>
+                  <a href="#"><i class="fa fa-laptop"></i>Our Company</a>
+                  <h2><i class="fa fa-laptop"></i>Our Company</h2>
+                  <ul>
+                      <li>
+                          <a href="#"><i class="fa fa-phone"></i>History</a>
+                      </li>
+                      <li>
+                          <a href="#"><i class="fa fa-phone"></i>Companies</a>
+                      </li>
+                      <li>
+                          <a href="#"><i class="fa fa-phone"></i>Careers</a>
+                      </li>
+                      <li>
+                          <a href="#"><i class="fa fa-phone"></i>Recent News</a>
+                      </li>
+                      <li>
+                          <a href="#"><i class="fa fa-phone"></i>Media</a>
+                      </li>
+                      <li>
+                          <a href="#"><i class="fa fa-phone"></i>Reviews</a>
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="#"><i class="fa fa-book"></i>Products</a>
+                  <h2><i class="fa fa-book"></i>Products</h2>
+                  <ul>
+                      <li>
+                          <a href="#">Personal Coverage</a>
+                      </li>
+                      <li>
+                          <a href="#">Commercial Coverage</a>
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="#"><i class="fa fa-shopping-cart"></i>Resources</a>
+                  <h2><i class="fa fa-shopping-cart"></i>Resources</h2>
+                  <ul>
+                      <li>
+                          <a href="#">Claims</a>
+                      </li>
+                      <li>
+                          <a href="#">Learning Center</a>
+                      </li>
+                      <li>
+                          <a href="#">Storm Center</a>
+                      </li>
+                      <li>
+                          <a href="#">FAQs</a>
+                      </li>
+                      <li>
+                          <a href="#">Find an Agent</a>
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="http://www.rebeccaschoenrock.com/thig/contact/">Contact Us</a>
+              </li>
+              <li>
+                  <a href="#">Customer Login</a>
+              </li>
+              <li>
+                  <a href="#">Agent Login</a>
+              </li>
+          </ul>
+        </nav>
+      </div>
         <header class="row">
             <div class="col-md-12 globalmenu"> <!-- Global Nav -->
                 <!--h1><a href="<!?php $url = home_url('/'); echo $url; ?>"><!?php bloginfo('name'); ?></a></h1-->
