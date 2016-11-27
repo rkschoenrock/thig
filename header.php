@@ -31,35 +31,35 @@
           <h2><i class="fa fa-reorder"></i>Tower Hill Insurance</h2>
           <ul>
               <li>
-                  <a href="#"><i class="fa fa-laptop"></i>Our Company</a>
-                  <h2><i class="fa fa-laptop"></i>Our Company</h2>
+                  <a href="http://www.rebeccaschoenrock.com/thig/our-company/">Our Company</a>
+                  <h2>Our Company</h2>
                   <ul>
                       <li>
-                          <a href="#"><i class="fa fa-phone"></i>History</a>
+                          <a href="#">History</a>
                       </li>
                       <li>
-                          <a href="#"><i class="fa fa-phone"></i>Companies</a>
+                          <a href="#">Companies</a>
                       </li>
                       <li>
-                          <a href="#"><i class="fa fa-phone"></i>Careers</a>
+                          <a href="#">Careers</a>
                       </li>
                       <li>
-                          <a href="#"><i class="fa fa-phone"></i>Recent News</a>
+                          <a href="http://www.rebeccaschoenrock.com/thig/category/recent-news/">Recent News</a>
                       </li>
                       <li>
-                          <a href="#"><i class="fa fa-phone"></i>Media</a>
+                          <a href="#">Media</a>
                       </li>
                       <li>
-                          <a href="#"><i class="fa fa-phone"></i>Reviews</a>
+                          <a href="#">Reviews</a>
                       </li>
                   </ul>
               </li>
               <li>
-                  <a href="#"><i class="fa fa-book"></i>Products</a>
-                  <h2><i class="fa fa-book"></i>Products</h2>
+                  <a href="#">Products</a>
+                  <h2>Products</h2>
                   <ul>
                       <li>
-                          <a href="#">Personal Coverage</a>
+                          <a href="http://www.rebeccaschoenrock.com/thig/products/personal-coverage/">Personal Coverage</a>
                       </li>
                       <li>
                           <a href="#">Commercial Coverage</a>
@@ -67,8 +67,8 @@
                   </ul>
               </li>
               <li>
-                  <a href="#"><i class="fa fa-shopping-cart"></i>Resources</a>
-                  <h2><i class="fa fa-shopping-cart"></i>Resources</h2>
+                  <a href="#">Resources</a>
+                  <h2>Resources</h2>
                   <ul>
                       <li>
                           <a href="#">Claims</a>

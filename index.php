@@ -100,7 +100,16 @@
                 </article>
             </div>
         </div>
+
+        <!-- ROW 8: Learning Center -->
+        <article class="col-md-12 learning">
+          <div class="wrapper">
+              <?php dynamic_sidebar('learning-widget-homepage'); ?>
+          </div>
+      </article>
     </section>
+
+
 <!-- End Section Wrapper + Container -->
 
 

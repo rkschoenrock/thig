@@ -35,12 +35,13 @@
 	</div>
 
 </article>
-<article class="col-md-4 sidebar">
+<article class="col-md-4 sidebar sidebar-color">
 	<h2 class="visuallyhidden">Sidebar</h2>
-    <?php dynamic_sidebar('agent-widget'); ?>
     <?php dynamic_sidebar('quote-widget'); ?>
-    <?php dynamic_sidebar('news-widget'); ?>
+    <?php dynamic_sidebar('agent-widget'); ?>
     <?php dynamic_sidebar('subscribe-widget'); ?>
+    <?php dynamic_sidebar('learning-widget'); ?>
+    <?php dynamic_sidebar('news-widget'); ?>
 </article>
 
 
