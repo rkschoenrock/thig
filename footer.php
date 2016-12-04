@@ -78,6 +78,14 @@ jQuery(document).ready(function(){
         containersToPush: [jQuery( '#pushobj' )],
         collapsed: true
     });
+		jQuery(window).on('resize',function(){
+			if (jQuery(window).width() < 992) {
+				location.reload();
+			}
+			else {
+
+			}
+		});
 });
 </script>
 </body>
